@@ -6,5 +6,5 @@ variable "ami" {}
 variable "key_name" {}
 
 variable "stack_name" {
-  default = "hashistack"
+  default = "wengchaoxi"
 }

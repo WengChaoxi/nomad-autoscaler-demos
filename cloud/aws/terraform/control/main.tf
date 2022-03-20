@@ -31,7 +31,7 @@ module "hashistack_cluster" {
   availability_zones = var.availability_zones
   ami                = var.ami
   key_name           = var.key_name
-  allowlist_ip       = ["${module.my_ip_address.stdout}/32"]
+  # allowlist_ip       = ["${module.my_ip_address.stdout}/32"] # Note
   stack_name         = var.stack_name
 }
 

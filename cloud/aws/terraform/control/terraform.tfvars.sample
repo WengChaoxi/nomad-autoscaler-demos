@@ -1,6 +1,7 @@
-region             = "us-east-1"
-availability_zones = ["us-east-1a"]
-ami                = "ami-0bd21458ecf89f85e"
-key_name           = "my-dev-ec2-keypair"
-owner_name         = "alovelace"
-owner_email        = "alovelace@example.com"
+region             = "" # Note: The region to deploy your infrastructure. This must match the region you deployed your AMI into.
+availability_zones = [""] # Note: A list of specific availability zones eligible to deploy your infrastructure into.
+ami                = "" # Note: Get the AMI on AWS after packaging.
+key_name           = "" # Note: The name of the AWS EC2 Key Pair that you want to associate to the instances.
+
+owner_name         = "wengchaoxi"
+owner_email        = "352120190@qq.com"
