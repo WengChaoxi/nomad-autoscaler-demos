@@ -20,7 +20,7 @@ source "amazon-ebs" "hashistack" {
       name                = "ubuntu/images/*ubuntu-focal-20.04-amd64-server-*"
       root-device-type    = "ebs"
     }
-    owners      = ["099720109477"] # Canonical's owner ID
+    owners      = ["837727238323"] # Canonical's owner ID # Note: bak: 099720109477
     most_recent = true
   }
 

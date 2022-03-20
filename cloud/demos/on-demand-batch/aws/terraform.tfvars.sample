@@ -1,4 +1,7 @@
-region      = "us-east-1"
-key_name    = ""
-owner_name  = ""
-owner_email = ""
+region             = "" # Note: The region to deploy your infrastructure. This must match the region you deployed your AMI into.
+key_name           = "" # Note: The name of the AWS EC2 Key Pair that you want to associate to the instances.
+allowed_ips        = "" # Note: Use Baidu to get the current IP address.
+
+ami_id             = "" # Note: The AMI ID created by your Packer run. You will receive it in the output from packer build earlier.
+owner_name         = "wengchaoxi"
+owner_email        = "352120190@qq.com"
