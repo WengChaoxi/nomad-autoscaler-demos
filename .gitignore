@@ -14,8 +14,10 @@
 # Terraform module and provider directory.
 .terraform
 
+.terraform.lock.hcl
+
 # Terraform vars file
-terraform.tfvars
+# terraform.tfvars
 
 # Cleanup files
 .cleanup*
